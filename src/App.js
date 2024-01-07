@@ -9,17 +9,17 @@ export default function App() {
   ReactGA.send(window.location.pathname + window.location.search);
   console.log(window.location.pathname + window.location.search);
 
-  /* // Send a custom event
+  // Send a custom event
   ReactGA.event({
-    category: "your category",
-    action: "your action",
-    label: "your label", // optional
-    value: 99, // optional, must be a number
-    nonInteraction: true, // optional, true/false
-    transport: "xhr", // optional, beacon/xhr/image
+    category: "button",
+    action: "click",
+    label: "button test", // optional
+    //value: 99, // optional, must be a number
+    //nonInteraction: true, // optional, true/false
+    //transport: "xhr", // optional, beacon/xhr/image
   });
 
-  ReactGA.send({
+  /*ReactGA.send({
     hitType: "pageview",
     page: "/",
     title: "Home",
