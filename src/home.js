@@ -7,7 +7,6 @@ import GoogleAnalyticsScript from "./google";
 export default function Home() {
   function handleClick(e) {
     console.log(e);
-    console.log(e.target);
   }
 
   return (
