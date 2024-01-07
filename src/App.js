@@ -5,9 +5,10 @@ import Home from "./home";
 
 export default function App() {
   const MEASUREMENT_ID = "G-D9E6DEPHJ9";
-  ReactGA.initialize(MEASUREMENT_ID, { debug: true });
+  ReactGA.initialize(MEASUREMENT_ID);
+  ReactGA.send(window.location.pathname + window.location.search);
 
-  // Send a custom event
+  /* // Send a custom event
   ReactGA.event({
     category: "your category",
     action: "your action",
@@ -21,7 +22,7 @@ export default function App() {
     hitType: "pageview",
     page: "/",
     title: "Home",
-  });
+  }); */
 
   return (
     <div className="App">
