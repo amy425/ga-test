@@ -2,6 +2,7 @@ import "./App.css";
 import * as React from "react";
 import HeaderBar from "./header";
 import { Link } from "react-router-dom";
+import GoogleAnalyticsScript from "./google";
 
 export default function Home() {
   function handleClick(e) {
@@ -16,6 +17,7 @@ export default function Home() {
       <Link to="/about" onClick={handleClick}>
         <button>Go to about (from home)</button>
       </Link>
+      <GoogleAnalyticsScript enabled={true} />
     </div>
   );
 }
