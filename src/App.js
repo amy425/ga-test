@@ -1,6 +1,6 @@
 import "./App.css";
 import * as React from "react";
-//import ReactGA from "react-ga4";
+import ReactGA from "react-ga4";
 import Home from "./home";
 
 export default function App() {
