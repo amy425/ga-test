@@ -17,6 +17,12 @@ export default function App() {
     transport: "xhr", // optional, beacon/xhr/image
   });
 
+  ReactGA.send({
+    hitType: "pageview",
+    page: "/",
+    title: "Home",
+  });
+
   return (
     <div className="App">
       <Home />
