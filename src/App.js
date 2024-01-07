@@ -1,10 +1,10 @@
 import "./App.css";
 import * as React from "react";
-import ReactGA from "react-ga4";
+//import ReactGA from "react-ga4";
 import Home from "./home";
 
 export default function App() {
-  //const MEASUREMENT_ID = "G-D9E6DEPHJ9";
+  //const GA_MEASUREMENT_ID = "G-D9E6DEPHJ9";
   /*ReactGA.initialize("G-D9E6DEPHJ9");
   ReactGA.send(window.location.pathname + window.location.search);
   console.log(window.location.pathname + window.location.search);
